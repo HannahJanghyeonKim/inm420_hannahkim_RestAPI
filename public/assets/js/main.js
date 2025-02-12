@@ -102,5 +102,3 @@ function searchWord(event) {
         document.getElementById('result').innerHTML = '<p>Error fetching definition. Please try again later.</p>';
     });
 }
-
-
