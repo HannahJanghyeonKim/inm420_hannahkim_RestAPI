@@ -1,0 +1,13 @@
+{
+  "name": "inm420_hannahkim",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "hannah kim",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

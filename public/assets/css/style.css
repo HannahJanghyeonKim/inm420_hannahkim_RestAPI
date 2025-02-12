@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start;
+    height: 100vh; 
+    background-color: #F2F2F2;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+}
+
+/* Header */
+.title {
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+/* Main Part */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+#search-bar {
+    margin-top: 30px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+#searchButton {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    background: #F2D64B;
+    color: #0D0D0D;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#searchButton:hover {
+    background: #e3c21a;
+}
+
+/* Result Part */
+#result {
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+.result-section {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted black;
+    text-align: left;
+    font-family: "Newsreader", serif;
+}
+
+.result-title {
+    display: flex;
+    text-align: left;
+    font-size: 32px;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    color: #0D0D0D;
+    padding-left: 10px;
+    border-left: 7px solid #F2D64B;
+    margin-bottom: 0px;
+}
+
+.word {
+    font-size: 27px;
+    font-weight: 500;
+    border: 0px;
+}
+
+
+.word-header {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 0px;
+    align-items: baseline;
+    margin-top: 20px;
+}
+
+
+audio {
+    margin-top: 5px;
+}
+
+.audio-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.def-section {
+    padding-left: 30px;
+    line-height: 25px;
+    font-size: 16px;
+
+}
+
+.ex_title{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 70px;
+}
+
+.examples {
+    font-style: italic;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+/* Suggestions */
+.suggestions ul {
+    padding: 0;
+    list-style-type: none;
+}
+.suggestions li {
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+}
+.suggestions li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.suggest_word {
+    text-align: left;
+    line-height: 30px;
+    font-size: 21px;
+    color: #0D0D0D;
+}
